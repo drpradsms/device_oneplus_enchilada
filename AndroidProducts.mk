@@ -12,4 +12,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_oneplus6.mk
+    $(LOCAL_DIR)/nitrogen_oneplus6.mk
