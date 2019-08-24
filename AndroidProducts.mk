@@ -12,4 +12,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nitrogen_oneplus6.mk
+    $(LOCAL_DIR)/aosp_oneplus6.mk
