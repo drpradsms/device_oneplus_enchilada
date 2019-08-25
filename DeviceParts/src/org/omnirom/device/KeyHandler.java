@@ -311,11 +311,6 @@ public class KeyHandler implements DeviceKeyHandler {
             }
         }).startObserving("DEVPATH=/devices/platform/soc/soc:tri_state_key");
 
-        isOPCameraAvail = NitrogenUtils.isAvailableApp("com.oneplus.camera", context);
-        if (isOPCameraAvail) {
-            mClientObserver = new ClientPackageNameObserver(CLIENT_PACKAGE_PATH);
-            mClientObserver.startWatching();
-        }
     }
 
     private class EventHandler extends Handler {

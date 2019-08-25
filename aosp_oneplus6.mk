@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus device
 $(call inherit-product, device/oneplus/oneplus6/device.mk)
 
-# Inherit some common Syberia stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit some common pe stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_oneplus6

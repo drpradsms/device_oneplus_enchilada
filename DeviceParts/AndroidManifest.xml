@@ -27,6 +27,9 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+              <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
         </activity>
         <activity-alias
             android:name="org.omnirom.device.DeviceSettings"
@@ -38,6 +41,9 @@
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+                <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
         </activity-alias>
         <activity
             android:name="org.omnirom.device.GestureSettingsActivity"
